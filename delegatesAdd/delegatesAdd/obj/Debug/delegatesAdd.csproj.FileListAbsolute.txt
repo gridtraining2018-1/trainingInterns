@@ -1,0 +1,6 @@
+c:\users\ashish mishra\documents\visual studio 2015\Projects\delegatesAdd\delegatesAdd\bin\Debug\delegatesAdd.exe.config
+c:\users\ashish mishra\documents\visual studio 2015\Projects\delegatesAdd\delegatesAdd\bin\Debug\delegatesAdd.exe
+c:\users\ashish mishra\documents\visual studio 2015\Projects\delegatesAdd\delegatesAdd\bin\Debug\delegatesAdd.pdb
+c:\users\ashish mishra\documents\visual studio 2015\Projects\delegatesAdd\delegatesAdd\obj\Debug\delegatesAdd.csprojResolveAssemblyReference.cache
+c:\users\ashish mishra\documents\visual studio 2015\Projects\delegatesAdd\delegatesAdd\obj\Debug\delegatesAdd.exe
+c:\users\ashish mishra\documents\visual studio 2015\Projects\delegatesAdd\delegatesAdd\obj\Debug\delegatesAdd.pdb
