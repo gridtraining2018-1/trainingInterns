@@ -1,0 +1,7 @@
+C:\Users\Dell\source\repos\PracticeC_Sharp\PracticeC_Sharp\bin\Debug\PracticeC_Sharp.exe.config
+C:\Users\Dell\source\repos\PracticeC_Sharp\PracticeC_Sharp\bin\Debug\PracticeC_Sharp.exe
+C:\Users\Dell\source\repos\PracticeC_Sharp\PracticeC_Sharp\bin\Debug\PracticeC_Sharp.pdb
+C:\Users\Dell\source\repos\PracticeC_Sharp\PracticeC_Sharp\obj\Debug\PracticeC_Sharp.csprojResolveAssemblyReference.cache
+C:\Users\Dell\source\repos\PracticeC_Sharp\PracticeC_Sharp\obj\Debug\PracticeC_Sharp.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\PracticeC_Sharp\PracticeC_Sharp\obj\Debug\PracticeC_Sharp.exe
+C:\Users\Dell\source\repos\PracticeC_Sharp\PracticeC_Sharp\obj\Debug\PracticeC_Sharp.pdb
