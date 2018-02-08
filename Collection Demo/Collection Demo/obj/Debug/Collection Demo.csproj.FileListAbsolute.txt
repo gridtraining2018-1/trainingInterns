@@ -1,0 +1,7 @@
+C:\Users\Dell\source\repos\Collection Demo\Collection Demo\bin\Debug\Collection Demo.exe.config
+C:\Users\Dell\source\repos\Collection Demo\Collection Demo\bin\Debug\Collection Demo.exe
+C:\Users\Dell\source\repos\Collection Demo\Collection Demo\bin\Debug\Collection Demo.pdb
+C:\Users\Dell\source\repos\Collection Demo\Collection Demo\obj\Debug\Collection Demo.csprojResolveAssemblyReference.cache
+C:\Users\Dell\source\repos\Collection Demo\Collection Demo\obj\Debug\Collection Demo.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\Collection Demo\Collection Demo\obj\Debug\Collection Demo.exe
+C:\Users\Dell\source\repos\Collection Demo\Collection Demo\obj\Debug\Collection Demo.pdb
