@@ -1,0 +1,43 @@
+using System;
+using System.IO;
+
+namespace File
+{
+    class Program
+    {
+        static FileStream f;
+        static StreamReader s;
+        static FileStream f1;
+        static StreamWriter s1;
+        static void Main(string[] args)
+        {
+            try
+            {
+                f = new FileStream("F:/ankit.txt", FileMode.OpenOrCreate);
+                s = new StreamReader(f);
+                string line = "";
+                while ((line = s.ReadLine()) != null)
+                {
+                    Console.WriteLine(line);
+                }
+
+                s1.WriteLine("Ok this is a copy");
+
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            finally
+            {
+                s.Close();
+                f.Close();
+
+            }
+            
+            
+            
+            Console.ReadKey();
+        }
+    }
+}
