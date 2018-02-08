@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Forum.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="JavaScript/Common.js" type="text/javascript" />
+   
+  
+   
+</head>
+<body>
+    
+    <form runat="server">
+    <div class="topheader" enableviewstate="false" runat="server" id="divHeader">
+			<div class="innercontainer">
+			<ul>
+				<li runat="server" id="liMemberControlPanel"><asp:HyperLink ID="lblMemberControlPanel" Visible="false" runat="server" NavigateUrl="EditForumMember.aspx">Member Control Panel</asp:HyperLink></li>
+				<li runat="server" id="liMyThread"><asp:HyperLink ID="hlkImgMyThread" runat="server" Visible="false" NavigateUrl="MyPost.aspx">My Thread</asp:HyperLink></li>
+				<li runat="server" id="liMemeberList"><asp:HyperLink ID="hlkMemeberList" runat="server" Visible="false" NavigateUrl="BuddyList.aspx">Buddy List<asp:Label ID="lblBuddyList" runat="server" Text=""></asp:Label></asp:HyperLink></li>
+				<li runat="server" id="liRegister"><asp:HyperLink ID="hlkRegister" runat="server"  NavigateUrl="ForumTerms.aspx">Register</asp:HyperLink></li>
+                <li runat="server" id="liInbox" visible=false><asp:HyperLink ID="hypInbox" runat="server"  NavigateUrl="mymailaspx.aspx">Inbox <asp:Label ID="lblLabel" runat="server" Text=""></asp:Label></asp:HyperLink>  </li>
+			    <li><asp:LinkButton ID="btnLoginLogout" runat="server" onclick="btnLoginLogout_Click">Login</asp:LinkButton></li>
+				<li><a href="Index.aspx?rss=1"><img alt="recent posts from all forums - RSS" src="Styles/images/rss.png" /></a></li>
+			</ul>
+			</div>
+		</div>
+    
+  
+ <%--  <asp:Image ID="Imglogin" runat="server" /> --%>
+  <asp:ContentPlaceHolder ID="ContentHead" runat="server">
+  <p></p>
+      
+
+   </asp:ContentPlaceHolder>
+   <div class="forumcontent innercontainer">
+       <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+           <p>
+              </p>
+          </asp:ContentPlaceHolder>
+</div>
+      </form>
+      <br />
+<%--   	<div class="gray" style="text-align:center">
+		<a href="remove_cookies.asp?XID=494472b68587" class="smLink">Delete cookies set by this forum</a>
+        <br />Cookies and JavaScript must be enabled on your web browser in order to use this forum<br />This page was generated in 3.008 seconds.</span>
+
+		</div> --%>
+
+</body>
+</html>

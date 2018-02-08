@@ -1,0 +1,914 @@
+﻿********** 1/23/2014 4:42:18 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: btnPost_Click
+Stack Trace: 
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 59
+
+********** 1/23/2014 4:42:21 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: btnPost_Click
+Stack Trace: 
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 59
+
+********** 1/23/2014 4:42:22 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: btnPost_Click
+Stack Trace: 
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 59
+
+********** 1/23/2014 4:42:25 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: btnPost_Click
+Stack Trace: 
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 59
+
+********** 1/23/2014 4:42:26 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: btnPost_Click
+Stack Trace: 
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 59
+
+********** 1/23/2014 4:42:27 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: btnPost_Click
+Stack Trace: 
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 59
+
+********** 1/23/2014 4:42:49 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: btnPost_Click
+Stack Trace: 
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 59
+
+********** 1/23/2014 5:19:35 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: btnPost_Click
+Stack Trace: 
+   at DataLayer.ClsModifyData.EditForumThread(ClsThread thread) in D:\Forum\DataLayer\ClsModifyData.cs:line 38
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 71
+
+********** 1/23/2014 5:22:19 PM **********
+Exception Type: System.IO.IOException
+Exception: The handle is invalid.
+
+Source: btnPost_Click
+Stack Trace: 
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.WriteCore(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.FileStream.Flush(Boolean flushToDisk)
+   at System.IO.FileStream.Flush()
+   at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   at System.IO.StreamWriter.Dispose(Boolean disposing)
+   at System.IO.StreamWriter.Close()
+   at DataLayer.ExceptionUtility.LogException(Exception exc, String source) in D:\Forum\DataLayer\ExceptionUtility.cs:line 51
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 76
+
+********** 1/23/2014 5:27:33 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: btnPost_Click
+Stack Trace: 
+   at DataLayer.ClsModifyData.EditForumThread(ClsThread thread) in D:\Forum\DataLayer\ClsModifyData.cs:line 39
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 71
+
+********** 1/23/2014 5:33:11 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: btnPost_Click
+Stack Trace: 
+   at DataLayer.ClsModifyData.EditForumThread(ClsThread thread) in D:\Forum\DataLayer\ClsModifyData.cs:line 39
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 71
+
+********** 1/23/2014 5:36:28 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: btnPost_Click
+Stack Trace: 
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 63
+
+********** 1/23/2014 6:09:39 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: btnPost_Click
+Stack Trace: 
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 51
+
+********** 1/23/2014 6:22:04 PM **********
+Exception Type: System.InvalidOperationException
+Exception: The connection was not closed. The connection's current state is open.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DataLayer.ClsModifyData.EditForumThread(ClsTopics topic) in D:\Forum\DataLayer\ClsModifyData.cs:line 43
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 66
+
+********** 1/23/2014 6:23:36 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 67
+
+********** 1/23/2014 6:23:58 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 72
+
+********** 1/23/2014 6:27:29 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 67
+
+********** 1/23/2014 6:27:29 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 72
+
+********** 1/24/2014 2:08:28 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Incorrect syntax near 's'.
+Incorrect syntax near 'the'.
+Unclosed quotation mark after the character string ' Where Thread_ID =0'.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.ClsModifyData.EditForumThread(ClsTopics topic) in D:\Forum\DataLayer\ClsModifyData.cs:line 34
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 71
+
+********** 1/24/2014 2:08:36 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Incorrect syntax near 's'.
+Incorrect syntax near 'the'.
+Unclosed quotation mark after the character string ' Where Thread_ID =0'.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.ClsModifyData.EditForumThread(ClsTopics topic) in D:\Forum\DataLayer\ClsModifyData.cs:line 34
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 71
+
+********** 1/24/2014 2:09:15 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Incorrect syntax near 's'.
+Incorrect syntax near 'the'.
+Unclosed quotation mark after the character string ' Where Thread_ID =0'.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.ClsModifyData.EditForumThread(ClsTopics topic) in D:\Forum\DataLayer\ClsModifyData.cs:line 34
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 71
+
+********** 1/24/2014 2:14:27 AM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 72
+
+********** 1/24/2014 2:14:27 AM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 77
+
+********** 1/24/2014 2:26:33 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Incorrect syntax near 's'.
+Incorrect syntax near 'the'.
+Unclosed quotation mark after the character string ' Where Thread_ID =52'.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.ClsModifyData.EditForumThread(ClsTopics topic) in D:\Forum\DataLayer\ClsModifyData.cs:line 34
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 71
+
+********** 1/24/2014 2:27:38 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Incorrect syntax near 's'.
+Incorrect syntax near 'the'.
+Unclosed quotation mark after the character string ' Where Thread_ID =52'.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.ClsModifyData.EditForumThread(ClsTopics topic) in D:\Forum\DataLayer\ClsModifyData.cs:line 34
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 71
+
+********** 1/24/2014 2:28:46 AM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 72
+
+********** 1/24/2014 2:28:46 AM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 77
+
+********** 1/24/2014 4:40:19 PM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Incorrect syntax near 'A'.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.ClsModifyData.EditForumThread(ClsTopics topic) in D:\Forum\DataLayer\ClsModifyData.cs:line 34
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 71
+
+********** 1/24/2014 4:40:25 PM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Incorrect syntax near 'A'.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.ClsModifyData.EditForumThread(ClsTopics topic) in D:\Forum\DataLayer\ClsModifyData.cs:line 34
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 71
+
+********** 1/24/2014 4:40:28 PM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Incorrect syntax near 'A'.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.ClsModifyData.EditForumThread(ClsTopics topic) in D:\Forum\DataLayer\ClsModifyData.cs:line 34
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 71
+
+********** 1/24/2014 4:40:29 PM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Incorrect syntax near 'A'.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.ClsModifyData.EditForumThread(ClsTopics topic) in D:\Forum\DataLayer\ClsModifyData.cs:line 34
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 71
+
+********** 1/24/2014 4:40:31 PM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Incorrect syntax near 'A'.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.ClsModifyData.EditForumThread(ClsTopics topic) in D:\Forum\DataLayer\ClsModifyData.cs:line 34
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 71
+
+********** 1/24/2014 4:40:53 PM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Incorrect syntax near 'A'.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.ClsModifyData.EditForumThread(ClsTopics topic) in D:\Forum\DataLayer\ClsModifyData.cs:line 34
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 71
+
+********** 1/27/2014 5:51:48 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 72
+
+********** 1/27/2014 5:51:48 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 77
+
+********** 1/27/2014 6:09:59 PM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Incorrect syntax near 's'.
+Unclosed quotation mark after the character string ' Where Thread_ID =63'.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.ClsModifyData.EditForumThread(ClsTopics topic) in D:\Forum\DataLayer\ClsModifyData.cs:line 34
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 71
+
+********** 1/27/2014 6:10:03 PM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Incorrect syntax near 's'.
+Unclosed quotation mark after the character string ' Where Thread_ID =63'.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.ClsModifyData.EditForumThread(ClsTopics topic) in D:\Forum\DataLayer\ClsModifyData.cs:line 34
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 71
+
+********** 1/27/2014 6:10:04 PM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Incorrect syntax near 's'.
+Unclosed quotation mark after the character string ' Where Thread_ID =63'.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.ClsModifyData.EditForumThread(ClsTopics topic) in D:\Forum\DataLayer\ClsModifyData.cs:line 34
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 71
+
+********** 1/27/2014 6:10:06 PM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Incorrect syntax near 's'.
+Unclosed quotation mark after the character string ' Where Thread_ID =63'.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.ClsModifyData.EditForumThread(ClsTopics topic) in D:\Forum\DataLayer\ClsModifyData.cs:line 34
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 71
+
+********** 1/27/2014 6:10:08 PM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Incorrect syntax near 's'.
+Unclosed quotation mark after the character string ' Where Thread_ID =63'.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.ClsModifyData.EditForumThread(ClsTopics topic) in D:\Forum\DataLayer\ClsModifyData.cs:line 34
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 71
+
+********** 1/27/2014 6:10:11 PM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Incorrect syntax near 's'.
+Unclosed quotation mark after the character string ' Where Thread_ID =63'.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.ClsModifyData.EditForumThread(ClsTopics topic) in D:\Forum\DataLayer\ClsModifyData.cs:line 34
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 71
+
+********** 1/27/2014 6:10:12 PM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Incorrect syntax near 's'.
+Unclosed quotation mark after the character string ' Where Thread_ID =63'.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.ClsModifyData.EditForumThread(ClsTopics topic) in D:\Forum\DataLayer\ClsModifyData.cs:line 34
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 71
+
+********** 1/27/2014 6:10:13 PM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Incorrect syntax near 's'.
+Unclosed quotation mark after the character string ' Where Thread_ID =63'.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.ClsModifyData.EditForumThread(ClsTopics topic) in D:\Forum\DataLayer\ClsModifyData.cs:line 34
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 71
+
+********** 1/27/2014 6:10:36 PM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Incorrect syntax near 's'.
+Unclosed quotation mark after the character string ' Where Thread_ID =63'.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.ClsModifyData.EditForumThread(ClsTopics topic) in D:\Forum\DataLayer\ClsModifyData.cs:line 34
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 71
+
+********** 1/27/2014 6:10:38 PM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Incorrect syntax near 's'.
+Unclosed quotation mark after the character string ' Where Thread_ID =63'.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.ClsModifyData.EditForumThread(ClsTopics topic) in D:\Forum\DataLayer\ClsModifyData.cs:line 34
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 71
+
+********** 1/27/2014 6:10:40 PM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Incorrect syntax near 's'.
+Unclosed quotation mark after the character string ' Where Thread_ID =63'.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.ClsModifyData.EditForumThread(ClsTopics topic) in D:\Forum\DataLayer\ClsModifyData.cs:line 34
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 71
+
+********** 1/27/2014 6:10:41 PM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Incorrect syntax near 's'.
+Unclosed quotation mark after the character string ' Where Thread_ID =63'.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.ClsModifyData.EditForumThread(ClsTopics topic) in D:\Forum\DataLayer\ClsModifyData.cs:line 34
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 71
+
+********** 1/27/2014 6:13:36 PM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Incorrect syntax near 's'.
+Unclosed quotation mark after the character string ' Where Thread_ID =63'.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.ClsModifyData.EditForumThread(ClsTopics topic) in D:\Forum\DataLayer\ClsModifyData.cs:line 34
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 71
+
+********** 1/27/2014 6:18:19 PM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Incorrect syntax near 's'.
+Unclosed quotation mark after the character string ' Where Thread_ID =63'.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.ClsModifyData.EditForumThread(ClsTopics topic) in D:\Forum\DataLayer\ClsModifyData.cs:line 34
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 71
+
+********** 1/27/2014 6:27:52 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 72
+
+********** 1/27/2014 6:28:00 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 77
+
+********** 1/27/2014 6:28:30 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 72
+
+********** 1/27/2014 6:28:30 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 77
+
+********** 1/27/2014 6:28:54 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 72
+
+********** 1/27/2014 6:28:54 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 77
+
+********** 1/27/2014 6:30:02 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 72
+
+********** 1/27/2014 6:30:02 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 77
+
+********** 1/27/2014 6:38:19 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 72
+
+********** 1/27/2014 6:38:19 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 77
+
+********** 1/27/2014 10:56:32 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 72
+
+********** 1/27/2014 10:56:32 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 77
+
+********** 1/27/2014 11:07:38 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 72
+
+********** 1/27/2014 11:07:38 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 77
+
+********** 1/27/2014 11:08:12 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 72
+
+********** 1/27/2014 11:08:12 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 77
+
+********** 1/27/2014 11:08:41 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 72
+
+********** 1/27/2014 11:08:42 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 77
+
+********** 1/27/2014 11:08:53 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 72
+
+********** 1/27/2014 11:08:54 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 77
+
+********** 1/28/2014 4:11:10 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 72
+
+********** 1/28/2014 4:11:10 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 77
+
+********** 1/28/2014 4:11:22 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 72
+
+********** 1/28/2014 4:11:22 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Forum\Forum\EditPost.aspx.cs:line 77
+
+********** 1/29/2014 2:57:57 PM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Conversion failed when converting from a character string to uniqueidentifier.
+Source: public List<clsRegistration> getUserDetails(string , string , string )
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.HasMoreRows()
+   at System.Data.SqlClient.SqlDataReader.ReadInternal(Boolean setTimeout)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at DataLayer.UserRegistration.getUserDetails(String UserName, String Password, String AutherID) in D:\Forum\DataLayer\UserRegistration.cs:line 168
+
+********** 26-Aug-16 5:18:45 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Sarbeswar\Forum\Forum\EditPost.aspx.cs:line 72
+
+********** 26-Aug-16 5:18:45 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: btnPost_Click
+Stack Trace: 
+   at Forum.EditPost.btnPost_Click(Object sender, EventArgs e) in D:\Sarbeswar\Forum\Forum\EditPost.aspx.cs:line 77
+
+********** 31-01-2018 20:20:57 **********
+Inner Exception Type: System.ComponentModel.Win32Exception
+Inner Exception: The network path was not found
+Inner Source: 
+Exception Type: System.Data.SqlClient.SqlException
+Exception: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Source: public List<clsRegistration> getUserDetails(string eufgu@gridinfocom.com, string asddghghhj, string 0)
+Stack Trace: 
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DataLayer.UserRegistration.getUserDetails(String UserName, String Password, String AutherID) in C:\Users\Shubham\Documents\Forum\Forum\DataLayer\UserRegistration.cs:line 164
+
+********** 31-01-2018 20:21:43 **********
+Inner Exception Type: System.ComponentModel.Win32Exception
+Inner Exception: The network path was not found
+Inner Source: 
+Exception Type: System.Data.SqlClient.SqlException
+Exception: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Source: public List<clsRegistration> getUserDetails(string eufgu.sdgiwe@gridinfocom.com, string kwndfjawfjlwajf, string 0)
+Stack Trace: 
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at DataLayer.UserRegistration.getUserDetails(String UserName, String Password, String AutherID) in C:\Users\Shubham\Documents\Forum\Forum\DataLayer\UserRegistration.cs:line 164
+

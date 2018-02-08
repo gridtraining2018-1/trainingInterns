@@ -1,0 +1,776 @@
+﻿/* *******************************************************
+Software: Web Wiz Forums
+Info: http://www.webwizforums.com
+Copyright: ©2001-2011 Web Wiz. All rights reserved
+******************************************************* */
+
+/* Page body */
+body{
+	background-color: #FFFFFF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+		background-image: url(images/bg_dark_diaganols.png);
+	background-repeat: repeat;
+	background-position: center center;
+		font-weight: normal;
+	color: #000000;
+	font-size: 11px;
+	background-color: #F0F1F5;
+	
+}
+
+/* Text for most CSS classes */
+body, .text, .smText, .error, a, a.smLink, a.msgLink, a.tLink, .WebWizRTEtextarea, .basicTable, .errorTable, .tableRow, .tableTopRow, .tableBottomRow, .evenTableRow, .oddTableRow, .hiddenTableRow, .PMtableRow, .PMmsgBody, .msgBody, .msgEvenTableRow, .msgOddTableRow, .msgAnswerTableRow, .msgHiddenTableRow, .msgOddTableSide, .msgEvenTableSide, .msgSignature, .calDateCell, .calTodayCell, .BBquote, .BBcode, .ChatTableRow, .ChatRoomBox, .ChatMembersBox {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 1.4;
+   /* text-align: center;*/
+}
+.lgText, .largeButton, .msgSideProfile, .tableLedger, .tableSubLedger, .tableSearchLedger, .calLedger{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+input
+{
+    padding: 0;
+    vertical-align: top;
+    width: 200px;
+	border:none;
+	cursor:pointer;
+	border:#999999 1px solid;
+	margin: 3px 2px;
+}
+h1, h2, h3 {
+	font-weight:normal;
+	color:#e11b22;
+}
+h1 {
+	font-size: 20px;
+	line-height: 25px;
+	color:#e11b22;
+	
+}
+h2 {
+	font-size: 15px;
+	line-height: 25px;
+	color: #444444;
+}
+h3 {
+	font-size: 16px;
+}
+
+/* Text */
+.smText{
+	font-size: 10px;
+	line-height: 12px; 
+}
+
+.lgText{
+	font-size: 15px;
+}
+
+h1{
+	font-size: 19px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.error{
+	color : #FF0000;
+}
+
+/* Search highlight */
+.highlight{
+	background-color: #ffff66
+}
+
+/* Hyperlinks */
+a:link {
+	color : #0000FF;
+	text-decoration: none;
+}
+
+a:visited{
+	color : #990099;
+	text-decoration : none;
+}
+
+a:hover, a:visited:hover{
+	color : #FF0000;
+	text-decoration : underline;
+}
+
+a.smLink {
+	font-size: 10px;
+	
+}
+
+
+/* Page Links */
+.pageLink, a.pageLink:link, a.pageLink:visited, a.smPageLink:link, a.smPageLink:visited{
+	color : #FFFFFF;
+	text-decoration: none;
+	background: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	padding: 2px;
+	margin: 2px;	
+}
+
+a.smPageLink:link, a.smPageLink:visited{
+	line-height: 30px;
+	padding: 1px;
+	margin: 1px;	
+}
+
+a.pageLink:hover, a.smPageLink:hover{
+	color: #FFFFFF;
+	text-decoration: underline;
+	border: 1px solid #FFFFFF;
+	background: #7F7F99;
+}
+
+.pageLink{
+	background: #DCDDE4;
+	border: 1px solid #888888;
+}
+
+
+
+/* Misc */
+ul{
+	list-style-type: circle;
+}
+
+li
+{
+	border-bottom:1px solid #fff;
+    padding:5px;
+    margin:2px;
+}
+
+form{
+	display: inline;
+}
+
+a img,:link img,:visited img{
+	border: none;
+	vertical-align: middle; 
+}
+
+.imgBorder {
+	border: #E7E7E7 1px solid;
+}
+
+.avatar, #avatar{
+	width: 64px;
+	height: 64px;
+	border: 1px solid #000000;
+	margin: 2px;
+}
+
+hr {
+	width: 100%;
+	background-color: #FFFFFF;
+	height: 1px;
+	border: 0px;
+}
+
+/* PNG Support for IE5.5 & 6 */
+img {
+   behavior: url('includes/pngbehavior.htc');
+}
+
+/* Rich Text Editor */
+.RTEtoolbar{
+ 	background-image: url('../../forum_images/toolbar_background.gif');
+ 
+}
+
+.WebWizRTEbutton, .RTEtoolbar{
+	padding: 1px;
+	
+}
+
+.WebWizRTEbuttonOver{
+	background-image: url('../../forum_images/toolbar_button_background.gif');
+	padding: 1px;
+}
+
+.RTEtableTopRow{
+	line-height: 22px;
+	background-color: #D3DAED;
+	background-image: url('../../forum_images/topbar_background.gif');
+}
+
+.RTEtableRow{
+	background-color: #F4F4FB;
+}
+
+.RTEtableBottomRow{
+	background-color: #D3DAED;
+	background-image: url('../../forum_images/bottombar_background.gif');
+}
+
+.WebWizRTEtextarea{
+	background-color: #FFFFFF;
+	color: #000000;
+	margin: 2px;
+	background-image:none;
+}
+
+.RTEmouseOver{
+	background-color: #FFFFFF;
+	color: #000000;
+	cursor: pointer;
+}
+
+
+/* Tables */
+.basicTable{
+	text-align: left;
+	border: 0px;
+	width: 98%;
+}
+
+.errorTable{
+	text-align: left;
+	border: 1px solid #FD7D40;
+	background-color: #FFF2E6;
+	width: 98%;
+	color: #FF0000;
+}
+
+
+.tableBorder{
+	text-align: left;
+	border: 1px solid #d2d2d2;
+	background-color: #f0f0ee;
+	width: 98%;
+	color:#444444;
+}
+
+.tableBorderMainContain{
+	text-align: left;
+	border: 1px solid #d2d2d2;
+	background-color: #FFFFFF;
+	width: 98%;
+	color:#444444;
+}
+
+
+
+.tableBorderStrip{
+	text-align: left;
+	border: 1px solid #d2d2d2;
+	background-color: #7F7F99;
+	width: 98%;
+}
+
+
+/* Table Ledger */
+.tableLedger{
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 1px solid #d2d2d2;
+	background-color:#f0f0ee;
+	height: 26px;
+}
+
+.tableLedger a:link, .tableLedger a:visited{
+	font-family: Arial, Helvetica, sans-serif;
+	color : #FFFFFF;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.tableLedger a:hover, .tableLedger a:visited:hover{
+	color : #CCCCCC;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+/* Search Sub-Ledger */
+.tableSubLedger{
+	font-weight: bold;
+	color: #333333;
+	background-color: #DCDDE4;
+	height: 19px;
+}
+
+.tableSubLedger a:link, .tableSubLedger a:visited{
+	font-family: Arial, Helvetica, sans-serif;
+	color : #000000;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.tableSubLedger a:hover, .tableSubLedger a:visited:hover{
+	color : #666666;
+	text-decoration : underline;
+	font-weight: bold;
+}
+
+/* Search Ledger / Blog Ledger */
+.tableSearchLedger{
+	font-weight: bold;
+	background-color: #DCDDE4;
+}
+
+.tableSearchLedger a:link, .tableSearchLedger a:visited{
+	font-family: Arial, Helvetica, sans-serif;
+	color : #000000;
+	text-decoration: none;
+}
+
+.tableSearchLedger a:hover, .tableSearchLedger a:visited:hover{
+	color : #666666;
+	text-decoration : underline;
+}
+
+
+/* Table Status Bar */
+.tableContent{
+	font-weight: normal;
+	color: #000000;
+	font-size: 11px;
+	text-align:justify;
+}
+
+.tableStatusBar a:link, .tableStatusBar a:visited{
+	color : #000000;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+.tableStatusBar a:hover, .tableStatusBar a:visited:hover{
+	color : #DCDDE4;
+	font-size: 11px;
+	text-decoration : underline;
+}
+
+
+/* Tables */
+.tableRow{
+	background-color: #F0F1F5;
+}
+
+.tableTopRow{
+	background-color: #DCDDE4;
+	
+}
+
+.tableBottomRow{
+	background-color: #DCDDE4;
+	
+}
+
+
+
+/* Alternating Row Colours */
+.evenTableRow{
+	background-color: #F0F1F5;
+
+}
+
+.oddTableRow{
+	background-color: #F0F1F5;
+}
+
+.hiddenTableRow{
+	background-color: #DFDFDF;
+}
+
+/* Private messager */
+.PMtableRow{
+	background-color: #F0F1F5;
+}
+
+.PMmsgBody{
+	width: 99%;
+	max-height: 450px;
+	float: left; 
+	overflow: auto;
+}
+
+a.PMsmLink:link, a.PMsmLink:visited, a.fileManLink:link, a.fileManLink:visited{
+	
+	font-size: 11px;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+a.PMsmLink:hover, a.PMsmLink:visited:hover, a.fileManLink:hover, a.fileManLink:visited:hover{
+	font-size: 11px;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+/* Forum posts and Blogs */
+.msgBody{
+	width: 100%;
+	margin: 2px;
+	float: left; 
+	overflow: auto;
+}
+
+.msgBody img, .PMmsgBody img {
+    max-width: 750px;
+    height: auto;
+}
+
+.msgEvenTableTop, .msgEvenTableSide, .blogEntryTableTop{
+	background-color: #F8F8FC;
+	font-size: 11px;
+}
+
+.msgOddTableTop, .msgOddTableSide{
+	background-color: #F8F8FC;
+	font-size: 11px;
+}
+
+.msgEvenTableRow, .blogEntryTableRow{
+	background-color: #F8F8FC;
+}
+
+.msgOddTableRow{
+	background-color: #F8F8FC;
+}
+
+.msgAnswerTableTop{
+	font-size: 11px;
+	background-color: #E7EEEF;
+}
+
+.msgEvenTableTop a:link, .msgEvenTableTop a:visited, .msgOddTableTop a:link, .msgOddTableTop a:visited, .postThanks, .postOptions, .msgAnswerTableTop a:link, .msgAnswerTableTop a:visited{
+	color : #000000;
+	text-decoration: none;
+	font-size: 11px;
+	cursor: pointer;
+}
+
+.msgEvenTableTop a:hover, .msgEvenTableTop a:visited:hover, .msgOddTableTop a:hover, .msgOddTableTop a:visited:hover, .msgAnswerTableTop a:hover, .msgAnswerTableTop a:visited:hover{
+	color : #000000;
+	text-decoration: underline;
+	font-size: 11px;
+}
+
+.msgSideProfile{
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.msgHiddenTableRow{
+	font-size: 10px;
+	background-image: url(../../forum_images/pre_approved_post.gif);
+}
+
+.msgLineDevider{
+	border: solid #E1E3EC 0px;
+	border-top-width: 1px;
+}
+
+.msgSignature{
+	max-height: 160px;
+	width: 100%;
+	float: left; 
+	overflow: auto;
+}
+
+.postSeparatorTableRow{
+	height: 10px;
+	background-color: #F4F4FB;
+
+}
+
+/* Calendar */
+.calLedger{
+	font-weight: bold;
+	background-color: #DCDDE4;
+	padding:4px;
+}
+.calLedger a:link, .calLedger a:visited{
+	color : #000000;
+	text-decoration: none;
+	font-size: 10px;
+}
+
+.calLedger a:hover, .calLedger a:visited:hover{
+	color : #666666;
+	text-decoration: none;
+	font-size: 10px;
+}
+
+.calDateCell{
+	background-color: #F8F8FC;
+}
+
+.calTodayCell{
+	background-color: #F8F8FC;
+	border:1px solid #CC0000;
+}
+
+.calEmptyDateCell{
+	background-color: #FFFFFF;
+}
+
+/* BBcode blocks */
+.BBquote{
+	border: 1px dotted #999999;
+	background-color: #FFFFFF;
+	width: 99.5%;
+	padding: 5px;
+	margin: 8px 0px;
+	text-align: left;
+	overflow: auto;
+	display: block;
+	padding: 5px;
+}
+
+.BBcode{
+	font-family: Courier New, Courier, mono;
+	border: 1px dashed #999999;
+	width: 99.5%;
+	padding: 5px;
+	margin: 8px 0px;
+	text-align: left;
+	overflow: auto;
+	display: block;
+	padding: 5px;
+}
+
+
+/* Tabs and Buttons */
+.largeButton, a.largeButton:link, a.largeButton:visited{
+	float: left;
+	color : #555555;
+	text-decoration: none;
+	font-size: 13px;
+	background-image: url('../../forum_images/large_grey_button.png');
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	height: 17px;
+	width: 96px;
+	padding: 5px 0px;
+	margin: 2px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+
+.largeButton:hover, a.largeButton:hover, a.largeButton:visited:hover{
+	background-position: 0px -28px;
+	color : #CC0000;
+	font-weight: bold;
+}
+
+.tabTable{
+	border: solid #B6B9CB 0px;
+	border-bottom-width: 1px;
+}
+
+
+a.tabButton:link, a.tabButton:visited, a.tabButtonActive:link, a.tabButtonActive:visited{
+	float: left;
+	color : #555555;
+	text-decoration: none;
+	font-size: 13px;
+	background-image: url('../../forum_images/large_grey_tab.png');
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	height: 17px;
+	width: 130px;
+	padding: 5px 0px;
+	margin: 0px 1px;
+	
+}
+
+a.tabButtonActive:link, a.tabButtonActive:visited{
+	background-position: 0px -61px;
+	color : #CC0000;
+}
+
+a.tabButton:hover, a.tabButton:visited:hover, a.tabButtonActive:hover, a.tabButtonActive:visited:hover{
+	background-position: 0px -30px;
+	color : #CC0000;
+}
+
+.topicIcon, .forumIcon{
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 35px;
+	width: 35px;
+}
+
+
+
+/* Drop Down Menus */
+.dropDownMenu, .dropDownStatusBar, .dropDownSearch, .dropDownTopicRating, .dropDownCalendar, .dropDownTopicSearch, .dropDownPermissions, .dropDownTopicShare{
+	visibility: hidden; 
+	position: absolute; 
+	left: 0px; 
+	top: 0px;
+	z-index:10;
+}
+
+.dropDownMenu, .dropDownStatusBar, .dropDownPermissions, .dropDownTopicShare{
+	background-color: #F4F4FB;
+	border: solid #E1E3EC;
+	border-width: 1px;
+	height: auto;
+	line-height: 18px;
+	padding: 1px;
+}
+
+.downDropParent, .dropDownPermissions, .dropDownTopicShare, .dropDownMenu a:link, .dropDownMenu a:visited, .dropDownStatusBar a{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.downDropParent{
+	color: #FFFFFF;
+}
+
+.dropDownMenu a:hover, .dropDownMenu a:visited:hover, .dropDownStatusBar a:hover {
+	color : #FFFFFF;
+	display: block;
+	background: #7F7F99;
+	width: 100%;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.dropDownSearch, .dropDownTopicSearch, .dropDownTopicRating{
+	background-color: #F4F4FB;
+	border: solid #E1E3EC;
+	border-width: 1px;
+	padding: 0px;
+}
+
+.dropDownTopicRating{
+	height: 110px;
+}
+
+.dropDownSearch{
+	height: 100px;
+}
+
+.dropDownTopicSearch{
+	height: 80px;
+}
+
+.dropDownPermissions, .dropDownTopicShare{
+	color: #333333;
+	line-height: 14px;
+	text-align: left;
+}
+
+.dropDownPointer, .postThanks, .postOptions{
+	cursor: pointer;
+}
+
+
+/* Chat Room */
+.ChatTableRow{
+	background-color: #FBFBFD;
+}
+
+.ChatRoomBox, .ChatMembersBox{
+	width: 99%;
+	height: 325px;
+	float: left; 
+	overflow: auto;
+}
+
+.chatAlert {
+	color: #FF0000;
+	font-weight: bold;
+}
+
+.chatMessage{
+	color: #4E6F2C;
+	font-weight: bold;
+}
+
+.chatMember{
+	color: #8A3630;
+	font-weight: bold;
+}
+
+.chatListMember{
+	color: #333333;
+	font-weight: bold;
+	
+}
+
+	#FOOTER {
+	width: 1000px;
+	position: relative;
+	z-index: 1;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(images/bg_footer.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 34px;
+}
+#FooterTable
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color : #000000;
+	font-weight: normal;
+	font-size: 12px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #FFFFFF;
+	background-color: #FFFFFF;
+	width:100%
+}
+	.gray_strip
+	{
+			height:30px;
+			background-color:#FFFFB0;
+			border:solid 1px #e11b22;
+			padding-left:11px;
+			margin:2px;
+			padding-top:10px;
+			color:#b70500;
+			
+			
+	}
+	
+	
+.navbar-inner
+{
+    min-height:40px;padding-right:20px;padding-left:20px;
+    background-color:#fafafa;background-repeat: repeat-x;
+    border: 1px solid #d4d4d4;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    zoom: 1;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .065);
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, .065);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .065);
+    background-image: linear-gradient(to bottom,#fff,#f2f2f2);*
+}
+
+.navbar{*position:relative;*z-index:2;margin-bottom:20px;overflow:visible}
+
+.navbar-inverse .navbar-inner
+{
+background-color:#1b1b1b;
+    background-repeat: repeat-x;
+    border-color: #252525;
+    background-image: linear-gradient(to bottom,#222,#111);
+}
+
+.navbar-fixed-top{margin-bottom:20px}

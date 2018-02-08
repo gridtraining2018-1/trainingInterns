@@ -1,0 +1,11 @@
+C:\Users\Dell\source\repos\FileInOut\FileInOut\bin\Debug\netcoreapp2.0\FileInOut.deps.json
+C:\Users\Dell\source\repos\FileInOut\FileInOut\bin\Debug\netcoreapp2.0\FileInOut.runtimeconfig.json
+C:\Users\Dell\source\repos\FileInOut\FileInOut\bin\Debug\netcoreapp2.0\FileInOut.runtimeconfig.dev.json
+C:\Users\Dell\source\repos\FileInOut\FileInOut\bin\Debug\netcoreapp2.0\FileInOut.dll
+C:\Users\Dell\source\repos\FileInOut\FileInOut\bin\Debug\netcoreapp2.0\FileInOut.pdb
+C:\Users\Dell\source\repos\FileInOut\FileInOut\obj\Debug\netcoreapp2.0\FileInOut.csprojResolveAssemblyReference.cache
+C:\Users\Dell\source\repos\FileInOut\FileInOut\obj\Debug\netcoreapp2.0\FileInOut.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\FileInOut\FileInOut\obj\Debug\netcoreapp2.0\FileInOut.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\FileInOut\FileInOut\obj\Debug\netcoreapp2.0\FileInOut.AssemblyInfo.cs
+C:\Users\Dell\source\repos\FileInOut\FileInOut\obj\Debug\netcoreapp2.0\FileInOut.dll
+C:\Users\Dell\source\repos\FileInOut\FileInOut\obj\Debug\netcoreapp2.0\FileInOut.pdb
