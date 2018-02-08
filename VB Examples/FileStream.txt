@@ -1,0 +1,51 @@
+using System;
+using System.IO;
+
+namespace FileInputOutput
+{
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            try
+            {
+                string path = @"C:\Users\Prateek Mathur\Desktop\prateek\new.txt";
+                string createText = "Hello and Welcome" + Environment.NewLine;
+                File.WriteAllText(path, createText);
+
+                // Open the file to read from.
+                string readText = File.ReadAllText(path);
+                Console.WriteLine(readText);
+                #region Write Into File
+                //FileStream f = new FileStream(@"C:\Users\Prateek Mathur\Desktop\prateek\new.txt", FileMode.OpenOrCreate);
+                //StreamWriter sw = new StreamWriter(f);
+                //sw.WriteLine("Hey");
+                //sw.Flush();
+                //sw.Close();
+                //f.Close();
+                #endregion
+
+                #region Read From File
+                //FileStream fa = new FileStream(@"C:\Users\Prateek Mathur\Desktop\prateek\new.txt", FileMode.OpenOrCreate);
+                //StreamReader sr = new StreamReader(f);
+                //string info = sr.ReadLine();
+                //Console.WriteLine(info);
+                
+                //sr.Close();
+                #endregion
+                //f.Close();
+
+                Console.ReadKey();
+
+
+            }
+            catch (Exception)
+            {
+
+                //throw;
+            }
+           
+        }
+    }
+}

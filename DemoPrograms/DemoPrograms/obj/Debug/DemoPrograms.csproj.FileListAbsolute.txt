@@ -1,0 +1,7 @@
+C:\Users\Dell\source\repos\DemoPrograms\DemoPrograms\bin\Debug\DemoPrograms.exe.config
+C:\Users\Dell\source\repos\DemoPrograms\DemoPrograms\bin\Debug\DemoPrograms.exe
+C:\Users\Dell\source\repos\DemoPrograms\DemoPrograms\bin\Debug\DemoPrograms.pdb
+C:\Users\Dell\source\repos\DemoPrograms\DemoPrograms\obj\Debug\DemoPrograms.csprojResolveAssemblyReference.cache
+C:\Users\Dell\source\repos\DemoPrograms\DemoPrograms\obj\Debug\DemoPrograms.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\DemoPrograms\DemoPrograms\obj\Debug\DemoPrograms.exe
+C:\Users\Dell\source\repos\DemoPrograms\DemoPrograms\obj\Debug\DemoPrograms.pdb

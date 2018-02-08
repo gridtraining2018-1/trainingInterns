@@ -1,0 +1,7 @@
+C:\Users\Dell\source\repos\InheritanceDemo\InheritanceDemo\bin\Debug\InheritanceDemo.exe.config
+C:\Users\Dell\source\repos\InheritanceDemo\InheritanceDemo\bin\Debug\InheritanceDemo.exe
+C:\Users\Dell\source\repos\InheritanceDemo\InheritanceDemo\bin\Debug\InheritanceDemo.pdb
+C:\Users\Dell\source\repos\InheritanceDemo\InheritanceDemo\obj\Debug\InheritanceDemo.csprojResolveAssemblyReference.cache
+C:\Users\Dell\source\repos\InheritanceDemo\InheritanceDemo\obj\Debug\InheritanceDemo.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\InheritanceDemo\InheritanceDemo\obj\Debug\InheritanceDemo.exe
+C:\Users\Dell\source\repos\InheritanceDemo\InheritanceDemo\obj\Debug\InheritanceDemo.pdb

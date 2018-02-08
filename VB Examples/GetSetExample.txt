@@ -1,0 +1,34 @@
+using System;
+
+namespace GetSetGo
+{
+    class Program
+    {
+        private int a, b;
+        Program()
+        {
+            a = 10;
+        }
+        public int Val
+        {
+            
+            set
+            {
+                b = value;
+
+            }
+            get
+            {
+                return b;
+            }
+        }
+        static void Main(string[] args)
+        {
+            Program p = new Program();
+            p.b = 20;
+            Console.Write("b: "+p.b);
+            Console.ReadKey();
+
+        }
+    }
+}

@@ -1,0 +1,7 @@
+C:\Users\Dell\source\repos\ConstructorDemo\ConstructorDemo\bin\Debug\ConstructorDemo.exe.config
+C:\Users\Dell\source\repos\ConstructorDemo\ConstructorDemo\bin\Debug\ConstructorDemo.exe
+C:\Users\Dell\source\repos\ConstructorDemo\ConstructorDemo\bin\Debug\ConstructorDemo.pdb
+C:\Users\Dell\source\repos\ConstructorDemo\ConstructorDemo\obj\Debug\ConstructorDemo.csprojResolveAssemblyReference.cache
+C:\Users\Dell\source\repos\ConstructorDemo\ConstructorDemo\obj\Debug\ConstructorDemo.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\ConstructorDemo\ConstructorDemo\obj\Debug\ConstructorDemo.exe
+C:\Users\Dell\source\repos\ConstructorDemo\ConstructorDemo\obj\Debug\ConstructorDemo.pdb
