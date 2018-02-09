@@ -1,0 +1,74 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LogFile
+{
+    class Program
+    {
+         public String path = "log.txt";
+        public void Add(int x, int y)
+        {
+            //FileStream f = new FileStream(path, FileMode.Append);
+            StreamWriter sw = new StreamWriter(path,true);
+            try
+            {
+                int sum = x + y;
+                //sw = File.AppendText(path);
+                sw.WriteLine(DateTime.Now);
+                sw.WriteLine(x);
+                sw.WriteLine(DateTime.Now);
+                sw.WriteLine(y);
+                sw.WriteLine(DateTime.Now);
+                sw.WriteLine(sum);
+                sw.Write("Value Added");
+            }
+            catch (Exception ex)
+            {
+                sw.WriteLine(DateTime.Now);
+                sw.WriteLine(ex);
+            }
+            sw.Close();
+            //f.Close();
+        }
+       
+        static void Main(string[] args)
+        {
+
+            Program p = new Program();
+            //FileStream f = new FileStream(p.path, FileMode.Append);
+            StreamWriter sw = new StreamWriter(p.path,true);
+
+            try
+            {
+               
+                string wel = "~~~~~WelCome to The Program~~~~~";
+                Console.WriteLine(wel);       
+                //sw = File.AppendText(p.path);
+                sw.WriteLine(DateTime.Now);
+                sw.WriteLine(wel);
+                Console.Write("Enter no1: ");
+                int n1 = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Enter no2: ");
+                int n2 = Convert.ToInt32(Console.ReadLine());
+                sw.Close();
+                p.Add(n1,n2);
+                Console.WriteLine("**********Saved********");
+                    
+            }
+            catch (Exception ex)
+            {
+                
+                sw.WriteLine(DateTime.Now);
+                //sw = File.AppendText(p.path);
+                sw.WriteLine(ex);
+              
+            }
+            
+            Console.ReadKey();
+        }
+    }
+}
