@@ -1,0 +1,23 @@
+--------------Function called-------------
+
+
+5
+
+
+0
+
+
+5
+-------------Result displayed
+--------------Division Initiated-------------
+
+
+5
+
+
+0
+
+
+Exceptio occured
+System.DivideByZeroException: Attempted to divide by zero.
+   at LoggerDemo.Program.add(Int32 a, Int32 b) in C:\Users\Dell\source\repos\LoggerDemo\LoggerDemo\Program.cs:line 32
