@@ -1,0 +1,36 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Reverse1
+{
+    class Reverse
+    {
+        public static void Cal()
+        {
+            int num, fin = 0, rev;
+            Console.Write("Enter a no.   ");
+            num = Convert.ToInt16(Console.ReadLine());
+            while (num > 0)
+            {
+                rev = num % 10;
+                fin = fin * 10 + rev;
+                num = num / 10;
+            }
+            Console.WriteLine(fin)
+;
+        }
+
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Reverse.Cal();
+            Console.ReadKey();
+        }
+    }
+}

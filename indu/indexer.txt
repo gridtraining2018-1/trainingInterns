@@ -1,0 +1,34 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace indexer1
+{
+    class Program
+    {
+        private string[] name = new string[2];
+        public string this[int index]
+        {
+            get
+            {
+                return name[index];
+            }
+            set
+            {
+                name[index] = value + " *";
+
+            }
+        }
+        static void Main(string[] args)
+        {
+            Program obj = new Program();
+            obj[0] = "ankit";
+            obj[1] = "gupta";
+            Console.WriteLine(obj[0]);
+            Console.WriteLine(obj[1]);
+            Console.ReadKey();
+        }
+    }
+}

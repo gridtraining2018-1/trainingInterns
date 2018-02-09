@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace delegates
+{
+    public static void Some()
+    { }
+    public delegate void Some1();
+    class Program
+    {
+       static void Main(string[] args)
+        {
+            Some1 objdele = new Some1(Some);
+            objdele.Invoke();
+            Console.ReadKey();
+        }
+}

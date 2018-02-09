@@ -1,0 +1,42 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace @interface
+{
+    interface FeatureOne
+    {
+        int add(int num,int num1);
+
+    }
+    interface FeatureTwo
+    {
+        int sub(int num, int num1);
+    }
+    class Program:FeatureOne,FeatureTwo
+    {
+        int num, num1, num2;
+        public int add(int num,int num1)
+        {
+            num2 = num + num1;
+            return num2;
+
+        }
+        public int sub(int num, int num1)
+        {
+            num2 = num - num1;
+            return num2;
+        }
+        static void Main(string[] args)
+        {
+            Program p = new Program();
+            p.add(15, 10);
+            Console.WriteLine(p.num2);
+            p.sub(20, 5);
+            Console.WriteLine(p.num2);
+            Console.ReadKey();
+        }
+    }
+}
