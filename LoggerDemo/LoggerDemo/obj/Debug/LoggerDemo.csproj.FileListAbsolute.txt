@@ -1,0 +1,7 @@
+C:\Users\Dell\source\repos\LoggerDemo\LoggerDemo\bin\Debug\LoggerDemo.exe.config
+C:\Users\Dell\source\repos\LoggerDemo\LoggerDemo\bin\Debug\LoggerDemo.exe
+C:\Users\Dell\source\repos\LoggerDemo\LoggerDemo\bin\Debug\LoggerDemo.pdb
+C:\Users\Dell\source\repos\LoggerDemo\LoggerDemo\obj\Debug\LoggerDemo.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\LoggerDemo\LoggerDemo\obj\Debug\LoggerDemo.exe
+C:\Users\Dell\source\repos\LoggerDemo\LoggerDemo\obj\Debug\LoggerDemo.pdb
+C:\Users\Dell\source\repos\LoggerDemo\LoggerDemo\obj\Debug\LoggerDemo.csprojResolveAssemblyReference.cache

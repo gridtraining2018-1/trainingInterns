@@ -1,0 +1,45 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace StringPalindrome
+{
+    class Program
+    {
+        static void Main(string[] args)
+        { 
+            string str = "naman";
+            char[] arr = str.ToCharArray();
+            int a = str.Length;
+            char[] ar = new char[a];
+            int j = 0;
+            int i;
+            string abc = string.Empty;
+
+          for ( i= a-1; i>=0; i--)
+            {
+
+
+                ar[j] = arr[i];
+                j++;
+            }
+           
+            for (i=0;i<a-1;i++)
+            {
+                if (ar[i] != arr[i])
+                
+                    Console.WriteLine("Not Palindrome");
+                    break;
+                }
+            }
+            if (i == a-1)
+                {
+                Console.WriteLine("Palindrome");
+            }
+            Console.ReadKey();
+        }
+    }
+}
+}

@@ -1,0 +1,45 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace @static
+{
+      class Laptop
+    {
+        public static int num1;
+        public static int num2;
+        public static int num3;
+        public static int Open(int a, int b)
+        {
+
+            num1 = a;
+            num2 = b;
+
+            num3 = num1 * num2;
+            return num3;
+
+        }
+        public static void Display()
+        {
+            Console.WriteLine(" result is" + num3);
+        }
+
+    }
+    class Program
+    {
+         static void Main(string[] args)
+        {
+            Console.WriteLine(" Enter numbers"); 
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            Laptop.Open(num1,num2);
+            Laptop.Display();
+            Console.ReadLine();
+
+        }
+
+    }
+}
+
