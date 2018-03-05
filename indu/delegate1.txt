@@ -1,0 +1,36 @@
+﻿using System;
+
+
+namespace SampleApp 
+{
+    
+delegate void MyDel(String s);
+class EventProgram 
+{
+     
+		
+      
+static void Erogram(String t) 
+{
+          
+Console.WriteLine("hello");
+
+      
+}
+		
+         
+static void Main(string[] args) 
+{
+            
+         
+MyDel md = Erogram;
+         
+md +=Erogram;
+         
+md("njnj");
+      
+}
+
+   
+}
+}
