@@ -1,0 +1,12 @@
+{
+  "description": "Blank Project",
+  "version": "2016.2.6192.32151",
+  "main": "Main.xaml",
+  "id": "SortingAnArray",
+  "dependencies": {},
+  "configurationOptions": {},
+  "excludedData": [
+    "Private:*",
+    "*password*"
+  ]
+}

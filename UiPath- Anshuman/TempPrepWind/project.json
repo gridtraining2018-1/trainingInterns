@@ -1,0 +1,14 @@
+{
+  "name": "Invoke_Workflow_Concept",
+  "description": "Project",
+  "main": "C:\\Users\\Dell\\Desktop\\Invoke_Workflow_Concept\\Invoke_Workflow_Concept\\Main_Workflow.xaml",
+  "dependencies": {},
+  "excludedData": [
+    "Private:*",
+    "*password*"
+  ],
+  "toolVersion": "18.1.2.0",
+  "projectVersion": "1.0.6638.18681",
+  "packOptions": {},
+  "runtimeOptions": {}
+}

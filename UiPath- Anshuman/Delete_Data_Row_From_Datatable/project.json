@@ -1,0 +1,14 @@
+{
+  "name": "Delete_Data_Row_From_Datatable",
+  "description": "Project",
+  "main": "C:\\Users\\Jagriti Singh\\Desktop\\22nd\\Delete_Data_Row_From_Datatable\\RemoveDatarow.xaml",
+  "dependencies": {},
+  "excludedData": [
+    "Private:*",
+    "*password*"
+  ],
+  "toolVersion": "17.1.6435.21855",
+  "projectVersion": "1.0.6597.21226",
+  "packOptions": {},
+  "runtimeOptions": {}
+}
