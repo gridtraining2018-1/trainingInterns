@@ -1,0 +1,14 @@
+{
+  "name": "Task 4",
+  "description": "Blank Project",
+  "main": "Main.xaml",
+  "dependencies": {},
+  "excludedData": [
+    "Private:*",
+    "*password*"
+  ],
+  "toolVersion": "17.1.6587.14020",
+  "projectVersion": "1.0.6588.17385",
+  "packOptions": {},
+  "runtimeOptions": {}
+}

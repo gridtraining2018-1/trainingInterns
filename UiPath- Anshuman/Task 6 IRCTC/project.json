@@ -1,0 +1,14 @@
+{
+  "name": "Task 6 IRCTC",
+  "description": "Blank Project",
+  "main": "Main.xaml",
+  "dependencies": {},
+  "excludedData": [
+    "Private:*",
+    "*password*"
+  ],
+  "toolVersion": "18.1.0.153",
+  "projectVersion": "1.0.6592.29730",
+  "packOptions": {},
+  "runtimeOptions": {}
+}

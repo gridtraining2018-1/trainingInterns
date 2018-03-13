@@ -1,0 +1,34 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace deligate1
+{    public delegate void even(int n);
+    class Program
+    {
+        public void func(int n)
+        {
+            if(n%2==0)
+            {
+                Console.WriteLine("even no");
+
+            }
+            else
+            {
+                Console.WriteLine("odd no");
+            } 
+        }
+        static void Main(string[] args)
+        {
+            Program p1 = new Program();
+            even e = new even(p1.func);
+           
+            e(10);
+            Console.ReadKey();
+                    
+        }
+    }
+}

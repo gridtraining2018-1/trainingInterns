@@ -1,0 +1,7 @@
+C:\Users\Dell\source\repos\InterfaceDemo\InterfaceDemo\obj\Debug\InterfaceDemo.csprojResolveAssemblyReference.cache
+C:\Users\Dell\source\repos\InterfaceDemo\InterfaceDemo\obj\Debug\InterfaceDemo.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\InterfaceDemo\InterfaceDemo\bin\Debug\InterfaceDemo.exe.config
+C:\Users\Dell\source\repos\InterfaceDemo\InterfaceDemo\bin\Debug\InterfaceDemo.exe
+C:\Users\Dell\source\repos\InterfaceDemo\InterfaceDemo\bin\Debug\InterfaceDemo.pdb
+C:\Users\Dell\source\repos\InterfaceDemo\InterfaceDemo\obj\Debug\InterfaceDemo.exe
+C:\Users\Dell\source\repos\InterfaceDemo\InterfaceDemo\obj\Debug\InterfaceDemo.pdb

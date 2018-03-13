@@ -1,0 +1,7 @@
+C:\Users\Dell\source\repos\SampleCodes\SampleCodes\bin\Debug\SampleCodes.exe.config
+C:\Users\Dell\source\repos\SampleCodes\SampleCodes\bin\Debug\SampleCodes.exe
+C:\Users\Dell\source\repos\SampleCodes\SampleCodes\bin\Debug\SampleCodes.pdb
+C:\Users\Dell\source\repos\SampleCodes\SampleCodes\obj\Debug\SampleCodes.csprojResolveAssemblyReference.cache
+C:\Users\Dell\source\repos\SampleCodes\SampleCodes\obj\Debug\SampleCodes.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\SampleCodes\SampleCodes\obj\Debug\SampleCodes.exe
+C:\Users\Dell\source\repos\SampleCodes\SampleCodes\obj\Debug\SampleCodes.pdb
