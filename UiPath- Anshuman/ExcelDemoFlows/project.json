@@ -1,0 +1,14 @@
+{
+  "name": "ExcelDemoFlows",
+  "description": "Blank Project",
+  "main": "Main.xaml",
+  "dependencies": {},
+  "excludedData": [
+    "Private:*",
+    "*password*"
+  ],
+  "toolVersion": "18.1.2.0",
+  "projectVersion": "1.0.6632.26723",
+  "packOptions": {},
+  "runtimeOptions": {}
+}

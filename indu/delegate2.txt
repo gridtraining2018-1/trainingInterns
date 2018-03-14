@@ -1,0 +1,44 @@
+using System;
+
+
+namespace SampleApp
+{
+
+ delegate void MyDel();
+
+  class EventProgram 
+   {
+
+    static void Erogram() 
+      {
+
+          //Console.WriteLine(t);
+
+
+      }
+		
+         
+   static void Main(string[] args)
+   {
+
+       MyDel md = delegate
+  
+             { 
+
+             Console.WriteLine("ello");
+
+             Console.WriteLine("llo");
+
+             Console.WriteLine("heo");
+  
+           
+  };
+
+             md();
+
+    }
+
+
+   }
+
+}

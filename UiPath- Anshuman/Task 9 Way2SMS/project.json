@@ -1,0 +1,14 @@
+{
+  "name": "Task 9 Way2SMS",
+  "description": "Blank Project",
+  "main": "Main.xaml",
+  "dependencies": {},
+  "excludedData": [
+    "Private:*",
+    "*password*"
+  ],
+  "toolVersion": "18.1.0.153",
+  "projectVersion": "1.0.6591.23433",
+  "packOptions": {},
+  "runtimeOptions": {}
+}
