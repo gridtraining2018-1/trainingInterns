@@ -1,0 +1,27 @@
+USE [capacityPalanning]
+GO
+
+/****** Object:  Table [dbo].[POStatus]    Script Date: 03/19/2018 17:17:59 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[POStatus](
+	[POStatusId] [int] NOT NULL,
+	[POstatus] [varbinary](50) NOT NULL,
+ CONSTRAINT [PK_POStatus] PRIMARY KEY CLUSTERED 
+(
+	[POStatusId] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
