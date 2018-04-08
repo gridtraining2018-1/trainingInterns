@@ -125,23 +125,8 @@
         </TryCatch>
       </FlowStep>
     </Flowchart.StartNode>
-    <FlowStep sap2010:WorkflowViewState.IdRef="FlowStep_1">
-      <ui:CommentOut sap2010:WorkflowViewState.IdRef="CommentOut_2">
-        <ui:CommentOut.Body>
-          <Sequence DisplayName="Ignored Activities" sap2010:WorkflowViewState.IdRef="Sequence_3">
-            <ui:SendOutlookMail Account="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="PFA excel file containing city details" DisplayName="Send Outlook Mail Message" sap2010:WorkflowViewState.IdRef="SendOutlookMail_1" IsBodyHtml="False" IsDraft="False" Subject="City_Details" To="ankit.gupta@gridinfocom.com">
-              <ui:SendOutlookMail.Files>
-                <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
-                  <InArgument x:TypeArguments="x:String">C:\Users\admin\Desktop\ankitexcel.xlsx</InArgument>
-                </scg:List>
-              </ui:SendOutlookMail.Files>
-            </ui:SendOutlookMail>
-          </Sequence>
-        </ui:CommentOut.Body>
-      </ui:CommentOut>
-    </FlowStep>
     <x:Reference>__ReferenceID0</x:Reference>
-    <sads:DebugSymbol.Symbol>dzNDOlxVc2Vyc1xhZG1pblxEb2N1bWVudHNcVWlQYXRoXFNlbmRfTWFpbFxNYWluLnhhbWwWQQORAQ8CAQFHCX0UAgECSQ1xGAIBBnkRec0BAgEDSz5LRQIBB00PWR8CARxaD1rDAgIBFlsPcBwCAQh5pgF5uwECAQRavQJawAICARtalQJanQICARla6gFa+AECARdbiQFbkQECARRhFW0gAgEJYhdsHAIBCmIlYlACAQtkG2ogAgENZClkQQIBDmYfaCoCAQ9nIWfXAQIBEGfMAWfUAQIBEmd6Z4sBAgER</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>dzNDOlxVc2Vyc1xhZG1pblxEb2N1bWVudHNcVWlQYXRoXFNlbmRfTWFpbFxNYWluLnhhbWwWQQOCAQ8CAQFHCX0UAgECSQ1xGAIBBnkRec0BAgEDSz5LRQIBB00PWR8CARxaD1rDAgIBFlsPcBwCAQh5pgF5uwECAQRavQJawAICARtalQJanQICARla6gFa+AECARdbiQFbkQECARRhFW0gAgEJYhdsHAIBCmIlYlACAQtkG2ogAgENZClkQQIBDmYfaCoCAQ9nIWfXAQIBEGfMAWfUAQIBEmd6Z4sBAgER</sads:DebugSymbol.Symbol>
   </Flowchart>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
@@ -200,29 +185,6 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">380,14.5</av:Point>
-            <av:Size x:Key="ShapeSize">200,51</av:Size>
-          </scg:Dictionary>
-        </sap:WorkflowViewStateService.ViewState>
-      </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="SendOutlookMail_1" sap:VirtualizedContainerService.HintSize="314,145">
-        <sap:WorkflowViewStateService.ViewState>
-          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-          </scg:Dictionary>
-        </sap:WorkflowViewStateService.ViewState>
-      </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Sequence_3" sap:VirtualizedContainerService.HintSize="336,269">
-        <sap:WorkflowViewStateService.ViewState>
-          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-          </scg:Dictionary>
-        </sap:WorkflowViewStateService.ViewState>
-      </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="CommentOut_2" sap:VirtualizedContainerService.HintSize="200,51" />
-      <sap2010:ViewStateData Id="FlowStep_1">
-        <sap:WorkflowViewStateService.ViewState>
-          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:Point x:Key="ShapeLocation">200,127.5</av:Point>
             <av:Size x:Key="ShapeSize">200,51</av:Size>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
