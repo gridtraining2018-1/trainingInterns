@@ -1,0 +1,14 @@
+{
+  "name": "Send_Email_Cityinfo",
+  "description": "Blank Project",
+  "main": "Main.xaml",
+  "dependencies": {},
+  "excludedData": [
+    "Private:*",
+    "*password*"
+  ],
+  "toolVersion": "18.1.1.13",
+  "projectVersion": "1.0.6641.22193",
+  "packOptions": {},
+  "runtimeOptions": {}
+}
